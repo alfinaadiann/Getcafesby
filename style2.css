@@ -1,0 +1,86 @@
+header {
+    background-image: url('resource/img/gambarheader.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 47vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.container-home{
+    text-align: center;
+    width: 85%;
+    margin: 40px auto;
+}
+.wrapper img{
+    height: 80%;
+	width: 80%;
+	border-radius: 20px;
+}
+.wrapper img:hover{
+    transform: scale(1.1) rotateZ(0deg);
+}
+.col-md-2 {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.col-md-3 img {
+    height: 60%;
+    width: 90%;
+    border-radius: 20px;
+}
+.banner-card{
+    position: relative;
+}
+.banner-card .mt-2{
+    position: :relative;
+    left: 40px;
+    top : 120px;
+}
+footer{
+    background: #854836;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: black;
+}
+.footer-distributed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-distributed img{
+    margin-bottom: 20px;
+}
+.sosial-media{
+    list-style: none;
+    display: flex;
+}
+.sosial-media li{
+    margin: 0 10px;
+}
+.sosial-media a{
+    text-decoration: none;
+    color: black;
+}
+.sosial-media a i{
+    transition: color .4s ease;
+}
+.sosial-media a:hover i{
+    color: #F5B553;
+}
+.figure video{
+    border-radius: 120px;  
+    margin-left: 100px;  
+}
+
+/*HALAMAN REKOMENDASI CAFE HITS*/
+.container-hits .card .card-body .card mb-3 img{
+    display: flex;
+}
